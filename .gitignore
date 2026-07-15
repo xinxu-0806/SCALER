@@ -1,0 +1,25 @@
+# FPGA/TAPA/Vitis generated artifacts
+/build/
+/_x/
+/.ipcache/
+/.Xil/
+*.xclbin
+!/bitfile/
+!/bitfile/*.xclbin
+*.xo
+*.dcp
+*.rpx
+*.ltx
+
+# Simulation and tool logs
+/logs/
+*.log
+/work.out
+
+# Local build products
+*.o
+*.a
+
+# Editor-local state
+/.vscode/
+*.suo
