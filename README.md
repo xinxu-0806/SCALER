@@ -49,19 +49,6 @@ xclbin, creates `emconfig.json`, and runs the host application.
 # equivalent: ./scripts/generate_bitstream.sh
 ```
 
-The generated deployable bitstream is published as:
-
-```text
-bitfile/SparseLUKernel_xilinx_u280_gen3x16_xdma_1_202211_1.xclbin
-```
-
-The `bitfile/` directory is intentionally not ignored by Git, so a verified
-bitstream can be included in a public release. Build work directories and
-simulation logs remain under ignored paths.
-
-This repository includes the matching prebuilt U280 artifact. Its SHA-256 is
-`3b0eb9e1095c7707da199dd4400a080f79bec59249b01c5ced5ca5c8c449a1c3`.
-
 ## Run on FPGA
 
 ```bash
